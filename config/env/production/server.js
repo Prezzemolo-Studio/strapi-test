@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-    host: env('HOST', 'phplaravel-1202186-4279885.cloudwaysapps.com'),
+    host: env('HOST', '159.223.231.147'),
     port: env.int('PORT', 1337),
     app: {
       keys: env.array('APP_KEYS', [env('APP_KEY')]),
